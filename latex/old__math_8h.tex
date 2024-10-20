@@ -1,0 +1,45 @@
+\doxysection{old\+\_\+math.\+h File Reference}
+\hypertarget{old__math_8h}{}\label{old__math_8h}\index{old\_math.h@{old\_math.h}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{old__math_8h_a14301751fed75428bd81b45d0602bb87}{osc\+\_\+sinf}} (float a)
+\begin{DoxyCompactList}\small\item\em Вычисляет синус \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Заголовочный файл содержит прототипы математических функций.
+
+Данная библиотека представлена функциями для выполнения математических операций. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{old__math_8h_a14301751fed75428bd81b45d0602bb87}\index{old\_math.h@{old\_math.h}!osc\_sinf@{osc\_sinf}}
+\index{osc\_sinf@{osc\_sinf}!old\_math.h@{old\_math.h}}
+\doxysubsubsection{\texorpdfstring{osc\_sinf()}{osc\_sinf()}}
+{\footnotesize\ttfamily \label{old__math_8h_a14301751fed75428bd81b45d0602bb87} 
+float osc\+\_\+sinf (\begin{DoxyParamCaption}\item[{float}]{a}{}\end{DoxyParamCaption})}
+
+
+
+Вычисляет синус 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & -\/ угол в радианах\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Синус угла {\itshape a}.
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{float}\ angle\_in\_rad\ =\ 13.43f;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keywordtype}{float}\ sin\_of\_angle\ =\ \mbox{\hyperlink{old__math_8h_a14301751fed75428bd81b45d0602bb87}{osc\_sinf}}(angle\_in\_rad);}
+
+\end{DoxyCode}
+
+
+\begin{DoxyWarning}{Warning}
+Значение угла должно быть в радианах, а не градусах 
+\end{DoxyWarning}
