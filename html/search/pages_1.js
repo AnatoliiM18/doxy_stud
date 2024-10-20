@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['osc_5fmath_20library_0',['OSC_Math library',['../index.html',1,'']]]
+  ['old_20math_0',['Old Math',['../index.html',1,'']]]
 ];
